@@ -1,0 +1,77 @@
+<!DOCTYPE html><!--CON ESTA ETIQUETA SE UTILIZA LA VERSION MAS RECIENTE DE HTML QUE ES LA VERSION 5-->
+<html lang="es">
+    <head>
+        <title>Ross Page</title><!--DENTRO DEL HEAD SOLO VAN COSAS COMO META DATOS Y OTRAS OPCIONES QUE NO SE MUESTRAN -->
+    </head>
+    <body> <!--DENTRO DE LA ETIQUETA BODY ES DONDE VA TODO LO QUE SE MOSTRARA EN LA PAGINA WEB-->
+        <h1>Ross Page Test</h1>
+        <h3>Etiquetas utiles para el texto</h3>
+        <p> <!--ETIQUETA GENERAL DE TEXTO (DENTRO DE LA MISMA SE PUEDEN PONER MAS ETIQUETAS PARA DARLE MAS SENTIDO AL TEXTO, COOSAS COMO
+            LAS ETIQUETAS STRONG(NEGRITAS), EM(CURSIVA))-->
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non maxime rem cumque consequuntur, ab, magni dicta omnis totam ullam voluptatem nulla. Debitis suscipit, tempora blanditiis placeat facere tempore id dolores?  
+        </p>
+        <hr>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <em> Phasellus efficitur sapien sit amet elit aliquet tempus </em>. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce placerat velit nec enim vestibulum pellentesque. <strong>Morbi sit amet lorem lectus</strong>. Integer suscipit et eros ut luctus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec tristique est sapien, et eleifend lacus aliquet fringilla. Morbi facilisis felis nunc, id vestibulum lorem lacinia vitae. Mauris nec magna nec nibh eleifend fermentum. Donec semper eget erat sed lobortis. Praesent finibus eros sagittis eros fermentum euismod. Sed sit amet dolor scelerisque, porttitor neque vel, volutpat leo. Cras eget bibendum nisl, ac commodo ligula. Phasellus vel leo id tellus faucibus tincidunt sed maximus nulla. 
+        </p>
+        <span><!--Esta es una etiqueta que permite poner identificadores (cosa que aun se debe comprobar) el identificador es de la forma id='nombre del identificador'-->
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum sint commodi repellat consectetur excepturi tempore, ut in eaque beatae cum rerum vitae quod accusamus sed nobis! Enim asperiores quaerat sint.
+        </span>
+        <hr>
+        <h3>Listas en HTML (Ordenadas y no ordenadas)</h3>
+        <h4>ol Ordenated list</h4>
+        <ol><!--Lista ordenada, los objetos dentro se declaran con la etiqueta li (list item)-->
+            <li>
+                Manzana
+                <ul><!--Dentro de las listas se pueden generar sublistas ya sea ordenadas o desordenadas-->
+                    <li>Roja</li>
+                    <li>Verde</li>
+                </ul>
+            </li>
+            <li>Naranja</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ol>
+        <h4>ul Unordenated list</h4>
+        <ul><!--Lista desordenada, los objetos dentro se declaran con la etiqueta li (list item)-->
+            <li>Manzana</li>
+            <li>Naranja</li>
+            <li>Pera</li>
+            <li>Sandia</li>
+        </ul>
+        <hr>
+        <h3>Manejo de imagenes</h3>
+        <!--la etiqueta img se utiliza para coloar imagenes, el atributo alt se utiliza para mostrar un texto cuando la imagen no carga
+        el atributo tittle dentro de esta etiqueta nos permite colocar un titulo a la imagen que se mostrara cuando se posicione el cursor sobre la misma
+        -->
+        <img src="./resources/images/Arcanine.png" alt="esta imagen es posiblemente acerca de un pokemon" title="Pokemon Arcanine"/>
+        <hr>
+        <h3>Tablas (siguen sin ser responsive a este punto, es mas correcto usar flexbox o grid para hacerlas con el modelo de cajas)</h3>
+        <!--En las tablas estan las filas tr y las columnas td, con th el elemento se pone en negritas y con la propiedad border se le agrega el border a la tabla, hay otra propiedad que se llama colspan que expande la columna en la cantidad proporcionada como entero-->
+        <table border="2">
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Edad</th>
+            </tr>
+            <tr>
+                <td>Sergio</td>
+                <td>Mendez</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>Sergio</td>
+                <td>Mendez</td>
+                <td>27</td>
+            </tr>
+        </table>
+        <hr>
+        <h3>Formularios</h3>
+        <form>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="">
+            <label for="descripcion">Descripcion</label>
+            <textarea></textarea>
+        </form>
+    </body>
+</html>

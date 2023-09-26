@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Ejercicio DOM, eventos y funciones</title>
+    <script type="text/javascript" src="JsModerno/32-ejercicio.js"></script>
+</head>
+
+<body>
+    <!--
+            1.- formulario con campos: nombre, apellidos, edad
+            2.- boton para enviar el formulario: type submit
+            3.- mostrar los datos del formulario en un contenedor como un div
+            4.- validacion del formulario.
+        -->
+    <h1>Ejercicio - Dom, Eventos, Funciones - Rossnok</h1>
+    <form method="POST" onsubmit="return false;" id="form">
+        <label for="name">Nombre</label> <br>
+        <input type="text" id="name"> <br>
+
+        <label for="lastNme">Apellidos</label><br>
+        <input type="text" id="lastName"><br>
+
+        <label for="age">Edad</label><br>
+        <input type="number" id="age"> <br>
+
+        <p>
+            <button type="submit">Enviar</button>
+        </p>
+    </form>
+
+    <div id="infoContainer" style="
+    border: dashed;
+    width: 300px;
+    height: 400px;
+    padding: 1em;">
+        <h3>Informacion del usuario</h3>
+        <br>
+        <hr>
+
+    </div>
+</body>
+
+</html>
