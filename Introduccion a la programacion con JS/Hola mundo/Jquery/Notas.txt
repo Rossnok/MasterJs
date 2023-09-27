@@ -1,0 +1,2 @@
+1.- dentro de un evento, por ejemplo el evento click, si se utiliza un callback () => {}, el elemento this contendra el elemento window, en cambio si se utiliza function() {}, el elemento que contendra this sera el elemento que esta ejecutando el evento.
+
