@@ -1,2 +1,3 @@
 1.- dentro de un evento, por ejemplo el evento click, si se utiliza un callback () => {}, el elemento this contendra el elemento window, en cambio si se utiliza function() {}, el elemento que contendra this sera el elemento que esta ejecutando el evento.
-
+2.- los navegadores tienen por defecto un outline en los inputs, para quitarlo y hacer funcionar el evento focus, solo hay que colocar 
+    la propiedad outline = 0; o none en los estilos para evitar el problema.

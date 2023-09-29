@@ -5,3 +5,30 @@
 .new_fontsize{
     font-size: 18px;
 }
+.styled_input{
+    font-size: 2em;
+    border: .5px solid gray;
+    letter-spacing: 1px;
+    padding: 1em;
+    outline: none;
+    background-color: rgba(130, 87, 57, 0.397);
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+}
+
+#cajaEventos{
+    margin: 1em;
+    height: 250px;
+    width: 250px;
+    border: 2px solid black;
+    background-color: aquamarine;
+    cursor: pointer;
+    transition: 300ms all;
+    -webkit-transition: 300ms all;
+    -moz-transition: 300ms all;
+    -ms-transition: 300ms all;
+    -o-transition: 300ms all;
+}
