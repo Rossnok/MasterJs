@@ -6,6 +6,10 @@
     font-size: 18px;
 }
 
+p{
+    margin: 0;
+}
+
 .styled_input{
     font-size: 2em;
     border: .5px solid gray;
@@ -21,15 +25,19 @@
 }
 
 .caja_efectos{
-    width: 300px;
-    height: 50px;
-    border: 2px dashed black;
-    background: #ccc;
+    width: fit-content;
+    height: fit-content;
+    padding: 2em;
+    border: 2px solid rgba(0, 0, 0, 0.428);
+    background: #cccccc78;
     margin: 1em 0em;
-    text-align: center;
-    line-height: 50px;
-    font-size: 19px;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
 }
 
 
