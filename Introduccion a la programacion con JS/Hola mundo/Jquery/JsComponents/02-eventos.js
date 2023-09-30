@@ -48,4 +48,14 @@ $(document).ready(() => {
     data.on('mousedown', function () { 
         $(this).css('border', '1px dashed red');
     });
+
+    //mouse move
+    $(document).mousemove(function(event){
+        //console.log(`Coordenadas X: ${event.clientX}`);// arroja las coordenadas en el eje x
+        //console.log(`Coordenadas y: ${event.clientY}`);// arroja las coordenadas en el eje y
+        $('body').css('cursor', 'none');// esto oculta el cursor
+
+        $('#sigueme').css('left', event.clientX)
+                     .css('top', event.clientY);
+    });
 });

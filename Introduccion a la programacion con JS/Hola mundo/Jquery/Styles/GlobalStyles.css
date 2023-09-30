@@ -5,6 +5,7 @@
 .new_fontsize{
     font-size: 18px;
 }
+
 .styled_input{
     font-size: 2em;
     border: .5px solid gray;
@@ -19,6 +20,19 @@
     -o-border-radius: 1em;
 }
 
+.caja_efectos{
+    width: 300px;
+    height: 50px;
+    border: 2px dashed black;
+    background: #ccc;
+    margin: 1em 0em;
+    text-align: center;
+    line-height: 50px;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 #cajaEventos{
     margin: 1em;
     height: 250px;
@@ -31,4 +45,18 @@
     -moz-transition: 300ms all;
     -ms-transition: 300ms all;
     -o-transition: 300ms all;
+}
+
+#sigueme{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    display: block;
+    opacity: .5;
+    background-color: chartreuse;
+    border-radius: 999px;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    -ms-border-radius: 999px;
+    -o-border-radius: 999px;
 }

@@ -1,3 +1,10 @@
 1.- dentro de un evento, por ejemplo el evento click, si se utiliza un callback () => {}, el elemento this contendra el elemento window, en cambio si se utiliza function() {}, el elemento que contendra this sera el elemento que esta ejecutando el evento.
+
 2.- los navegadores tienen por defecto un outline en los inputs, para quitarlo y hacer funcionar el evento focus, solo hay que colocar 
     la propiedad outline = 0; o none en los estilos para evitar el problema.
+
+3.- es importante crear variables que contengan el elemento que vamos a maninpular en el documento para asi no sobrecargar al dom con llamadas
+    al elemento. O en dado caso tratar de que solo se haga una llamada al elemento en ell dom.
+
+4.- cuando se usa jQuery lo mejor es siempre cargar primero el script de la libreria antes de cualquier script de alguna clase o componente
+    de hacer lo contrario nos dara error usando los selectores.
