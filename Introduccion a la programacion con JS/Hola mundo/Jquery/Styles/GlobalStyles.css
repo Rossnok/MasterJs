@@ -92,6 +92,10 @@ p{
     cursor: pointer;
 }
 
+.interface_games_container li:hover{
+    background-color: lightskyblue;
+}
+
 #dropArea{
     width: 300px;
     height: 300px;
