@@ -28,10 +28,49 @@ $(document).ready(() => {
     });
 
     $('#movedElement').draggable();
-    
+
     $('#dropArea').droppable({
         drop: function (event, ui) {
             console.log(ui.draggable[0].innerText);
         }
     });
+
+    /** Efectos
+     * fade
+     * explode
+     * blind
+     * drop
+     * fold
+     * puff
+     * shake
+     * scale
+     * hay muchos mas efectos en la documentacion
+     * como segundo parametro se le puede pasar la velocidad o la configuracion, si se pasan los dos, el segundo es la config
+     */
+
+    var mostrar = $('#mostrar');
+    var cajaEfectos = $('#cajaEfectos');
+
+    mostrar.on('click', () => { 
+        cajaEfectos.toggle('drop', 'slow');// la velocidad se le puede pasar incluso en ms
+    });
+
+    // Tooltip se puede usar directamente en el documento
+    // un tooltip es un comentario que contiene informacion
+    $('a, button').tooltip();
+
+    // Cuadros de dialogo o popUp
+    var terminosCondiciones = $('#popUp');
+
+    terminosCondiciones.dialog();
+
+    // Date picker
+    var calendario  = $('#datePicker');
+
+    calendario.datepicker();
+
+    // Tabs
+    var tabs = $('#tabs');
+
+    tabs.tabs();
 });
