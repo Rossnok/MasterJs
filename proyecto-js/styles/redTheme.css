@@ -1,0 +1,20 @@
+body{
+    background: url('../img/rojo.jpg');
+    background-attachment: fixed;/*propiedad que hace que el fondo siempre sea statico aunque se haga scroll*/
+}
+
+.logo_container{
+    background: #ca3413;    
+}
+
+.menu_container > ul > li > a:hover{
+    background-color: #ca3413;
+}
+
+.sidebar_container > div > h4 {
+    background: #ca3413;  
+}
+
+.menu_container{
+    background: #ca3413;         
+}
