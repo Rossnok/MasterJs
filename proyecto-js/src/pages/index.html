@@ -21,10 +21,13 @@
     <!--Scripts-->
     <script type="text/javascript" src="../scripts/slider.js"></script>
     <script type="text/javascript" src="../scripts/posts.js"></script>
+    <script type="text/javascript" src="../scripts/theme.js"></script>
+    <script type="text/javascript" src="../scripts/scrollStart.js"></script>
+    <script type="text/javascript" src="../scripts/login.js"></script>
 </head>
 
 <body>
-    <div id="changeTheme" class="change_theme">
+    <div id="changeT heme" class="change_theme">
         <div id="toGreen"></div>
         <div id="toRed"></div>
         <div id="toBlue"></div>
@@ -66,11 +69,11 @@
                     <h4><span>Login</span></h4>
                     <form action="" class="login_form">
                         <label for="name">Nombre</label><br>
-                        <input type="text" name="name" class="form_input"><br>
+                        <input type="text" name="name" id="nameInput" class="form_input"><br>
                         <label for="email">Email</label><br>
-                        <input type="text" name="email" class="form_input">
+                        <input type="text" name="email" id="emailInput" class="form_input">
                         <label for="pass">Password</label><br>
-                        <input type="text" name="pass" class="form_input"><br>
+                        <input type="text" name="pass" id="passInput" class="form_input"><br>
                         <input type="submit" value="Ingresar">
                     </form>
                 </div>
@@ -79,6 +82,8 @@
     </section>
     <footer>
         Redes sociales
+
+        <a href="#" class="scroll_page">Regresar al inicio</a>
     </footer>
 </body>
 
